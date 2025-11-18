@@ -1,4 +1,5 @@
--- starter-programming-in-science-assignment-3-a
+# starter-programming-in-science-assignment-3-a
+
 420-SN1-RE: Programming In Science Fall 2025
 
 ---
@@ -6,7 +7,9 @@
 # **Programming in Science – Assignment 3**
 
 This is the starter project for **Programming in Science – Assignment 3**.
+
 Written in Python and tested with **unittest / pytest**.
+
 The focus of this assignment is **data visualization using NumPy, Pandas, and Matplotlib** with both **.txt** and **.csv** data files.
 
 ---
@@ -21,11 +24,8 @@ Write a function that:
 
 * Uses `np.linspace()` to generate **100 x-values** between **-10 and 10**
 * Computes the function
-  [
-  y = x^2 + 2x - 3
-  ]
+  \$[ y = x^2 + 2x - 3 \$]
 * Plots the curve using Matplotlib with:
-
   * A title
   * Labeled axes
   * A grid
@@ -44,25 +44,23 @@ Write a function that:
 
 - Uses `np.arange(-20, 20, 0.05)` to generate x-values
 - Computes:
-  - \( y_1 = x \)  (a straight line)
-  - \( y_2 = x + \sin(x) \)  (the same line with a periodic oscillation)
+  - \${ y_1 = x \}$  (a straight line)
+  - \${ y_2 = x + \sin(x) \}$  (the same line with a periodic oscillation)
 - Plots **both curves** on the same graph
 - Adds:
   - legend
   - axis labels
   - title
 
-This plot illustrates how the function \( \sin(x) \) causes the curve to **oscillate around the baseline line** \( y = x \).
+This plot illustrates how the function \${ \sin(x) \}$ causes the curve \${ y_2\}$ to **oscillate around the baseline line** \${ y = x \}$.
 
 #### Example:
 ```python
 plot_trig_waves()
-
-
-
+```
 ---
 
-### **3️⃣ (15%) Reading Array Data from a Text File (.txt)**
+### ***3️⃣ (15%) Reading Array Data from a Text File (.txt)**
 
 Write a function that reads a `.txt` file containing a **single line of space-separated numbers**, such as:
 
@@ -71,10 +69,9 @@ Write a function that reads a `.txt` file containing a **single line of space-se
 ```
 
 The function should:
-
-* Read the file
-* Convert the data into a **NumPy array**
-* Plot the values as a **simple line plot**
+  * Read the file
+  * Convert the data into a **NumPy array**
+  * Plot the values as a **simple line plot**
 
 Use `np.loadtxt()` or `np.genfromtxt()`.
 
